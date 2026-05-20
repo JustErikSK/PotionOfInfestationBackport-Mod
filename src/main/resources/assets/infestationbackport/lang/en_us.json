@@ -1,0 +1,12 @@
+{
+  "effect.infestationbackport.infested": "Infested",
+  "effect.infestationbackport.infested.description": "Taking damage has a chance to spawn silverfish.",
+  "potion.infestationbackport.infestation": "Potion of Infestation",
+  "potion.infestationbackport.long_infestation": "Potion of Infestation",
+  "item.minecraft.potion.effect.infestation": "Potion of Infestation",
+  "item.minecraft.potion.effect.long_infestation": "Potion of Infestation",
+  "item.minecraft.splash_potion.effect.infestation": "Splash Potion of Infestation",
+  "item.minecraft.splash_potion.effect.long_infestation": "Splash Potion of Infestation",
+  "item.minecraft.lingering_potion.effect.infestation": "Lingering Potion of Infestation",
+  "item.minecraft.lingering_potion.effect.long_infestation": "Lingering Potion of Infestation"
+}
