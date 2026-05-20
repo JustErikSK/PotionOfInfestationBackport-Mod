@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[0,)"
+license="MIT"
+[[mods]]
+modId="infestationbackport"
+version="1.0.0"
+displayName="Potion of Infestation Backport"
+authors="JustErikSK, Satorisek, With Rage Studios"
+description='''Backport of the Potion of Infestation for Minecraft version 1.20.6'''
+[[dependencies.infestationbackport]]
+    modId="forge"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.infestationbackport]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.6,1.21,)"
+    ordering="NONE"
+    side="BOTH"
