@@ -3,7 +3,7 @@ loaderVersion="[0,)"
 license="MIT"
 [[mods]]
 modId="infestationbackport"
-version="1.0.0"
+version="1.0.1"
 displayName="Potion of Infestation Backport"
 authors="JustErikSK, Satorisek, With Rage Studios"
 description='''Backport of the Potion of Infestation for Minecraft version 1.20.6'''
