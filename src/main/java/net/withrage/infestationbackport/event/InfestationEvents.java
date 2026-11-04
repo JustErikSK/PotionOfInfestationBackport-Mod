@@ -8,7 +8,7 @@ import net.minecraft.world.entity.monster.Silverfish;
 import net.minecraft.world.phys.Vec3;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.neoforge.event.entity.living.LivingDamageEvent;
+import net.neoforged.neoforge.event.entity.living.LivingAttackEvent;
 import net.withrage.infestationbackport.ModEffects;
 import net.withrage.infestationbackport.PotionOfInfestationBackport;
 import net.withrage.infestationbackport.config.InfestationConfig;
@@ -17,7 +17,7 @@ import net.withrage.infestationbackport.config.InfestationConfig;
 public class InfestationEvents {
 
     @SubscribeEvent
-    public static void onLivingDamage(LivingDamageEvent event) {
+    public static void onLivingDamage(LivingAttackEvent event) {
         LivingEntity entity = event.getEntity();
 
         if (entity.level().isClientSide()) return;
